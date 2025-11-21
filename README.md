@@ -100,7 +100,7 @@ cd backend
 mvn clean install
 java -jar target/*.jar
 
-Frontend
+### Frontend
 
 cd frontend
 npm install
@@ -109,7 +109,7 @@ npm start
 
 
 
-📊 Results & Impact
+## 📊 Results & Impact
 
 Deployment cycle improved by 40%
 
@@ -121,7 +121,7 @@ Faster testing + debugging workflow
 
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Chetan Rohan Gattupalli
 B.Tech CSE — VIT-AP University
