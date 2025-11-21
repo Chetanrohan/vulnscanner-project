@@ -99,14 +99,60 @@ Developer → GitHub → Jenkins → Maven Build → Tests ↓ Security Scan →
 cd backend
 mvn clean install
 java -jar target/*.jar
-
+```
 
 ## Frontend
-
+```
 cd frontend
 npm install
 npm start
+```
 
+## 📂 Project Structure
+```
+/backend
+  ├── src/main/java
+  ├── pom.xml
+
+/frontend
+  ├── src
+  ├── package.json
+
+/jenkins
+  ├── Jenkinsfile
+
+/docs
+  ├── diagram.png
+```
+
+
+## 🧪 Pipeline Workflow
+
+1. Code pushed to GitHub
+
+
+2. Jenkins pipeline triggers automatically
+
+
+3. Maven build + unit tests
+
+
+4. Security scan stage
+
+
+5. Artifact packaging
+
+
+6. SCP/SSH deployment to EC2
+
+
+7. Backend service restart
+
+
+8. Frontend build update
+
+
+9. Deployment complete
 
 
 
